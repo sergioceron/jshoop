@@ -9,22 +9,22 @@
  ***********************************************************************/
 ?>
 <div id="footer">
-<p><a href="/http://www.laciudadx.com/about">Acerca de nosotros</a> -
-<a href="mailto:sxceron@laciudadx.com">Sugerencias</a> - <a
-	href="#">Ayuda</a> - <a
-	href="./">jShop Home</a></p>
-©2007 jShop Beta. (sxceron) Todos los derechos resevados<br>Resolucion minima 1024 x 768 px </div>
+    <p><a href="/http://www.laciudadx.com/about">Acerca de nosotros</a> -
+        <a href="mailto:sxceron@laciudadx.com">Sugerencias</a> - <a
+            href="#">Ayuda</a> - <a
+            href="./">jShop Home</a></p>
+    ï¿½2007 jShop Beta. (sxceron) Todos los derechos resevados<br>Resolucion minima 1024 x 768 px
+</div>
 
 <script type="text/javascript">
 
-	var messageObj = new DHTML_modalMessage();	// We only create one object of this class
+    var messageObj = new DHTML_modalMessage();    // We only create one object of this class
 
-	function displayArticle(url)
-	{
-		messageObj = new DHTML_modalMessage();
-		messageObj.setSource(url+"?cid="+Math.random());
-		messageObj.setCssClassMessageBox(false);
-		messageObj.setSize(300,200);
-		messageObj.display();
-	}
-	</script>
+    function displayArticle(url) {
+        messageObj = new DHTML_modalMessage();
+        messageObj.setSource(url + "?cid=" + Math.random());
+        messageObj.setCssClassMessageBox(false);
+        messageObj.setSize(300, 200);
+        messageObj.display();
+    }
+</script>
